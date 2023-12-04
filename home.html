@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <title>Aiman's Amazing Website</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="img">
+                <img src="image1.png" alt="Logo 1">
+            </div>
+            <div class="text">
+                <h1>RM1 CAMPAIGN</h1>
+            </div>
+            <div class="img">
+                <img src="image2.png" alt="Logo 2">
+            </div>
+        </div>
+        <p>Let your contributions be perpetual for the pleasure of Allah</p>
+        <div class="verse">
+            <p>“The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing.”</p>
+            <p>Al Baqarah:261</p>
+        </div>
+    </header>
+
+    <main class="custom-main">
+        <div class="flex-container">
+            <section class="about-contact">
+                <h2>About Us</h2>
+                <p>A "RM1 Campaign" is a fundraising or donation initiative in which people are encouraged to contribute or donate one Malaysian Ringgit (RM1). The campaign aims to collect a large number of small contributions, which will have a significant impact when added together. The idea is that a small donation from many people can add up to a large fund.</p>
+            </section>
+
+            <section class="about-contact">
+                <h2>Contact</h2>
+                <p>
+                    IIUM Endowment Fund<br>
+                    International Islamic University Malaysia<br>
+                    P.O.Box 10<br>
+                    50728 Kuala Lumpur<br>
+                    Email: ief@iium.edu.my<br>
+                    Tel: 03-6421 5314
+                </p>
+                <script src="script.js"></script>
+                <button onclick="callUs()">Call us now!</button>
+                </section>
+        </div>
+        
+        <section class="deduction-form">
+            <h2>Deduction Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="staffNo">Staff No.:</label>
+                <input type="text" id="staffNo" name="staffNo" required>
+
+                <label for="position">K/C/D/I/O:</label>
+                <input type="text" id="position" name="position" required>
+
+                <label for="contactNo">Contact No.:</label>
+                <input type="tel" id="contactNo" name="contactNo" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Amount to be Deducted RM:</label>
+                <input type="text" id="amount" name="amount" required>
+
+                <label for="startDate">Salary deduction start date:</label>
+                <input type="month" id="startDate" name="startDate" required>
+
+                <label for="endDate">Salary deduction end date:</label>
+                <input type="month" id="endDate" name="endDate" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 aickerman. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
